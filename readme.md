@@ -1,12 +1,13 @@
 
 # logos 
 
-it is a simple OS from scratch
+How OS works? This question led me to go search for answers. 
 
-It is able to boot, use screen and keyboard, and get user input. It has a simple shell. Maybe it will have a filesystem later.
+First I have read  Operating Systems: Three Easy Pieces, then I followed the great [os-tutorial](https://github.com/cfenollosa/os-tutorial). After reading the other books below, I have started to understand, re-write, and connect the existing pieces.  
+
+Logos is able to boot, use screen and keyboard, start a simple shell, and get user input, Maybe it will have a filesystem later. 
 
 It is 32 bit and the assembly core is written for x86. 
-
 
 ## Development 
 
@@ -21,14 +22,15 @@ There is an overview for assembly and x86 in docs/ folder
 
 The bootloader part is largely from Prof. Blundell's book [Writing a Simple Operating System — from Scratch ](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
 
-
 Interrupt code is largely from [os-tutorial](https://github.com/cfenollosa/os-tutorial)  
 
-I have re-written, commented, and simplified 
+I have re-written, commented, and simplified most parts 
 
 ### books 
 
 Operating Systems: From 0 to 1
+
+Writing a Simple Operating System — from Scratch
 
 Operating Systems: Three Easy Pieces
 
