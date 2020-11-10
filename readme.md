@@ -3,7 +3,7 @@
 
 How OS works? This question led me to go search for answers. 
 
-First I have read  Operating Systems: Three Easy Pieces, then I followed the great [os-tutorial](https://github.com/cfenollosa/os-tutorial). After reading the other books below, I have started to understand, re-write, and connect the existing pieces.  
+First I have read  Operating Systems: Three Easy Pieces, then I followed the great [os-tutorial](https://github.com/cfenollosa/os-tutorial). After reading the other books and links below, I have started to understand, re-write, and connect the existing pieces. This project consists of distilled ideas from these books, tutorials, and links. 
 
 Logos is able to boot, use screen and keyboard, start a simple shell, and get user input, Maybe it will have a filesystem later. 
 
