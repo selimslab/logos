@@ -19,18 +19,20 @@ There is an overview for assembly and x86 in docs/ folder
 
 ## resources
 
+The bootloader part is largely from Prof. Blundell's book [Writing a Simple Operating System — from Scratch ](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
+
+
+Interrupt code is largely from [os-tutorial](https://github.com/cfenollosa/os-tutorial)  
+
+I have re-written, commented, and simplified 
 
 ### books 
 
 Operating Systems: From 0 to 1
 
-Prof. Blundell's book [Writing a Simple Operating System — from Scratch ](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
-
 Operating Systems: Three Easy Pieces
 
 ### links 
-
-[os-tutorial](https://github.com/cfenollosa/os-tutorial)  
 
 https://wiki.osdev.org/Main_Page
 
