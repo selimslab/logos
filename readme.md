@@ -3,7 +3,7 @@
 
 
 ## background 
-What happens under the hood? How do computers work really? 
+How do computers work really? What happens under the hood? 
 
 How my keyboard knows what I am writing? 
 
