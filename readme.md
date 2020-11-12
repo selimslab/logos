@@ -1,9 +1,23 @@
 
 # logos 
 
-How OS works? This question led me to go search for answers. 
 
-First I have read  Operating Systems: Three Easy Pieces, then I followed the great [os-tutorial](https://github.com/cfenollosa/os-tutorial). After reading the other books and links below, I have started to understand, re-write, and connect the existing pieces. This project consists of distilled ideas from these books, tutorials, and links. 
+## background 
+What happens under the hood? How do computers work really? 
+
+How my keyboard knows what I am writing? 
+
+How the screen knows what to show and how? 
+
+Where is all these files and folders? What is a file anyway?  
+
+Questions follow each other. This got me thinking. First I have read  Operating Systems: Three Easy Pieces, then I followed the great [os-tutorial](https://github.com/cfenollosa/os-tutorial). After reading and skimming a few more OS books and some time on [os-dev wiki](https://wiki.osdev.org/Main_Page), answers started to come. 
+
+## Aim
+
+This project is educational. It aims to connect the ideas and to show how a simple kernel works   
+
+## Scope 
 
 Logos is able to boot, use screen and keyboard, start a simple shell, get user input, and execute a few commands. Maybe it will have a filesystem later. 
 
