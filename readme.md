@@ -9,14 +9,24 @@ Logos is able to boot, use screen and keyboard, start a simple shell, get user i
 
 It is 32 bit and the assembly core is written for x86. 
 
-## Development 
+It is developed in 16 steps. Heavily commented yet you may need to make a few google searches to better understand.
 
-It is developed in steps. Every step has its folder, and adds a little bit on the previous step 
+## Setup 
 
-All you need is a mac or linux. You only need to install qemu for simulating the OS,  nasm for assembly and a C compiler to compile the kernel. Installation commands are in their relevant steps.  
+we need a way to view our OS as it grows. A way is to boot a small computer like a raspberry pi or arduino. A simpler way is to use an emulator. Here we use [qemu](https://www.qemu.org/) 
+
+For assembler we will use [Netwide Assembler- nasm](https://www.nasm.us/)
+
+### macOS
+
+ `brew install qemu nasm`
+
+### linux 
+
+use your own package manager 
 
 
-## resources
+## Resources
 
 The bootloader part is largely from Prof. Blundell's book [Writing a Simple Operating System — from Scratch ](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
 
@@ -55,6 +65,7 @@ https://stackoverflow.com/questions/25634708/gnu-linker-equivalent-command-in-os
 
 
 ## assembly overview 
+
 B - Define Byte. 8 bits
 
 DW - Define Word. Generally 2 bytes on a typical x86 32-bit system
@@ -63,6 +74,7 @@ DD - Define double word.
 
 
 ## x86 overview
+
 there are 8, 16, and 32 bit general registers
 
 they are named a, b, c, d
