@@ -15,7 +15,7 @@ Questions follow each other. This got me thinking. First I have read  Operating 
 
 ## Aim
 
-This project is educational. It aims to connect the ideas and to show how a simple kernel works   
+Logos aims to connect the ideas from all these resources and to show how a simple kernel works   
 
 ## Scope 
 
@@ -23,7 +23,7 @@ Logos is able to boot, use screen and keyboard, start a simple shell, get user i
 
 It is 32 bit and the assembly core is written for x86. 
 
-It is developed in 16 steps. Heavily commented yet you may need to make a few google searches to better understand.
+It is developed in 16 steps and heavily commented. 
 
 ## Setup 
 
