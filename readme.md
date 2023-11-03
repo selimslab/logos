@@ -1,11 +1,15 @@
 
 # Logos 
 
-This is a project to understand and replicate [the great OS tutorial of Carlos Fenollosa](https://github.com/cfenollosa/os-tutorial) 
-
 Logos bootloads a kernel, connects to the keyboard and the screen, then starts a basic shell 
 
 It is 32 bit and the assembly core is written for x86. 
+
+---
+
+This is a project to understand and replicate [the great OS tutorial of Carlos Fenollosa](https://github.com/cfenollosa/os-tutorial) 
+
+Most parts are re-written, commented, and simplified 
 
 ## Setup 
 
