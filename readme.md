@@ -1,27 +1,11 @@
 
 # Logos 
 
-## Background 
+This is a project to understand and replicate [the great OS tutorial of Carlos Fenollosa](https://github.com/cfenollosa/os-tutorial) 
 
-How my keyboard knows what I am writing? 
-
-How the screen knows what to show and how? 
-
-Where is all these files and folders? What is a file anyway?  
-
-Questions follow each other. This got me thinking. First I have read  Operating Systems: Three Easy Pieces, then I followed the great [os-tutorial](https://github.com/cfenollosa/os-tutorial). After reading and skimming a few more OS books and some time on [os-dev wiki](https://wiki.osdev.org/Main_Page), answers started to come. 
-
-## Aim
-
-Logos aims to connect the ideas from all these resources and to show how a simple kernel works   
-
-## Scope 
-
-Logos is able to boot, use screen and keyboard, start a simple shell, get user input, and execute a few commands. Maybe it will have a filesystem later. 
+Logos bootloads a kernel, connects to the keyboard and the screen, then starts a basic shell 
 
 It is 32 bit and the assembly core is written for x86. 
-
-It is developed in 16 steps and heavily commented. 
 
 ## Setup 
 
@@ -37,16 +21,11 @@ For assembler we will use [Netwide Assembler- nasm](https://www.nasm.us/)
 
 use your own package manager 
 
-
 ## Resources
 
 The bootloader part is largely from Prof. Blundell's book [Writing a Simple Operating System — from Scratch ](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
 
-Interrupt code is largely from [os-tutorial](https://github.com/cfenollosa/os-tutorial)  
-
-I have re-written, commented, and simplified most parts 
-
-### books 
+### Books 
 
 Operating Systems: From 0 to 1
 
@@ -54,7 +33,7 @@ Writing a Simple Operating System — from Scratch
 
 Operating Systems: Three Easy Pieces
 
-### links 
+### Links 
 
 https://wiki.osdev.org/Main_Page
 
@@ -74,9 +53,7 @@ https://articles.jaredcamins.com/building-a-kernel-for-a-toy-os-on-os-x-6002ea8a
 
 https://stackoverflow.com/questions/25634708/gnu-linker-equivalent-command-in-os-x/26378967#26378967
 
-
-
-## assembly overview 
+## Assembly overview 
 
 B - Define Byte. 8 bits
 
@@ -85,7 +62,7 @@ DW - Define Word. Generally 2 bytes on a typical x86 32-bit system
 DD - Define double word.
 
 
-## x86 overview
+## x86 overview
 
 there are 8, 16, and 32 bit general registers
 
