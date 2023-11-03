@@ -1,9 +1,7 @@
 
-# logos 
+# Logos 
 
-
-## background 
-How do computers work really? What happens under the hood? 
+## Background 
 
 How my keyboard knows what I am writing? 
 
